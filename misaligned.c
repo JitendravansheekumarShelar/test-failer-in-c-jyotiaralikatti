@@ -21,8 +21,7 @@ void printColorMap(int PairN,ColorPair_set ColorPair )
 int main() {
     int result;
     result = Get_Each_ColorPair_set();
-    assert(result==25);
-    assert(result == N_MAJ_COLORS*N_MIN_COLORS);
+    assert(result==26);
     
    printf("All is well (maybe!)\n");
     return 0;
